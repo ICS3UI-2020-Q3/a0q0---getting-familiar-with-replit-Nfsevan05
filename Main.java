@@ -23,7 +23,8 @@ public class Main {
     //create the varible to store the birth year
     int birthYear = input.nextInt();
     //caclulate the approximate age
-    int age = 2021 - birthYear;
+    final int CURRENT_YEAR = 2021;
+    int age = CURRENT_YEAR - birthYear;
     //tell user calculated age
     System.out.println("You are approximately " + age + " years old.");
   }
